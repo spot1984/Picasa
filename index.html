@@ -17,10 +17,53 @@
 	 setTimeout("titleMarquee()", 450);
 	 }
 	</script>
+	
+	<script typoe="text/javascript">
+	function Get(yourUrl){
+		var Httpreq = new XMLHttpRequest(); // a new request
+		Httpreq.open("GET",yourUrl,false);
+		Httpreq.send(null);
+		return Httpreq.responseText;          
+    }
+
+	function test() {
+		var json_obj = JSON.parse(Get("metadata.json"));
+		
+		albumTitle= json_obj.albumData.title;
+		images=json_obj.media.length;
+
+		albumHTML=albumTitle+"<br>";
+		albumHTML+="("+images+" images)<br>";
+		albumHTML+="<br>";
+		
+		
+		for (i=0;i<images; ++i)
+		{
+			title= json_obj.media[i].title;
+			urlDownload= json_obj.media[i].url;
+			description=json_obj.media[i].description;
+			
+			urlThumb=urlDownload;
+			urlThumb = urlThumb.replace('s0-d','s200-c');
+			urlFullsize=urlDownload;
+			urlFullsize.replace("/s0-d/","/s0-Ic42/");
+			
+			//console.log("this is the title name: "+title);
+			imageBlock="";
+			//imageBlock +=  title+'<br>';
+			imageBlock += '<img src="'+urlThumb+'"\><br>'
+			imageBlock += description+'<br>';
+			imageBlock += '<br>';
+			albumHTML += imageBlock;
+		}		
+
+		document.getElementById("demo").innerHTML=albumHTML;
+		
+	}
+	</script>
+	
 </head>
-<body onload="titleMarquee()">
-Hello World!
-Hello World!
-weirld
+<body onload="test()">
+<p id="demo">Loading...</p>
 </body>
 </html>
