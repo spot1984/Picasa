@@ -24,7 +24,7 @@ Httpreq.open("GET",yourUrl,false);
 Httpreq.send(null);
 return Httpreq.responseText; }
 function test() {
-	var json_obj = JSON.parse(Get("albums/20150218 Hypercube of monkeys.json"));
+	var json_obj = JSON.parse(Get("Albums/20150218 Hypercube of monkeys.json"));
 	albumTitle= json_obj.albumData.title;
 	images=json_obj.media.length;
 	albumHTML="<div class=\"title\">"+albumTitle+"</div>";
