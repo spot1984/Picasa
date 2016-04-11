@@ -1,0 +1,96 @@
+{
+  "albumData": {
+    "title": "160103 Welding PLA",
+    "date": "Jan 2, 2016 12:00:00 AM",
+    "access": "private",
+    "description": "",
+    "location": "",
+    "geoInfo": null
+  },
+  "media": [
+    {
+      "tags": [],
+      "description": "In a rush I broke this GoPro camera mount.  This seemed like an ideal opportunity to try welding PLA.\n\nI used an old soldering iron and leftover PLA scrap from previous prints.  I chose a bright color to better see and illustrate the weld in this first case.",
+      "title": "IMG_0877.JPG",
+      "people": [],
+      "comments": [],
+      "url": "https://lh3.googleusercontent.com/-aPOmrwQeGDE/Vomr_SAIMiI/AAAAAAAAx8o/1M-02dhdKzYknKMbz_oG18hlC_Ddrfuhw/s0-d/IMG_0877.JPG",
+      "geoInfo": null,
+      "geoInfoExif": null,
+      "imageViews": 0,
+      "license": null
+    },
+    {
+      "tags": [],
+      "description": "Basically, (once you select an iron and clean the solder from the tip) you use the iron to briefly heat portions of the area to be welded and add filler as needed.  The filler used here is the thin orangish line to the left on the desk.\n\n(as you can see, you don\u0027t even need to clean your desk first #embarrassed )",
+      "title": "IMG_0880.JPG",
+      "people": [],
+      "comments": [],
+      "url": "https://lh3.googleusercontent.com/-bPduYwTa7dc/VomsA-mFfDI/AAAAAAAAx8o/rPLgZBJQ0m80DGBFvkv72sL5KuIOG-LOw/s0-d/IMG_0880.JPG",
+      "geoInfo": null,
+      "geoInfoExif": null,
+      "imageViews": 0,
+      "license": null
+    },
+    {
+      "tags": [],
+      "description": "Filler material",
+      "title": "IMG_0881.JPG",
+      "people": [],
+      "comments": [],
+      "url": "https://lh3.googleusercontent.com/-j7vu4mIpVPk/VomsBEmVtpI/AAAAAAAAx8o/VDI_mtoUeBE_BV-Skc5h_3MVU4EFQgucA/s0-d/IMG_0881.JPG",
+      "geoInfo": null,
+      "geoInfoExif": null,
+      "imageViews": 0,
+      "license": null
+    },
+    {
+      "tags": [],
+      "description": "This is a GoPro camera mount tripod base that had split.  I used an excess of black material to bolster the failed (delaminated) area.  This time I used black PLA but still made no effort to beautify the surface.  Start by working the iron into the joint and get filler material bonded as deep inside as possible for maximum strength.",
+      "title": "IMG_0883.JPG",
+      "people": [],
+      "comments": [],
+      "url": "https://lh3.googleusercontent.com/-ZwRHnZnr-K0/VomsBqgzG6I/AAAAAAAAx8o/pW1JQs1KVvwKayFFhVRZ5yn0BkPxiVfRw/s0-d/IMG_0883.JPG",
+      "geoInfo": null,
+      "geoInfoExif": null,
+      "imageViews": 0,
+      "license": null
+    },
+    {
+      "tags": [],
+      "description": "Right side repaired",
+      "title": "IMG_0884.JPG",
+      "people": [],
+      "comments": [],
+      "url": "https://lh3.googleusercontent.com/-4mYG4qx5yU8/VomsCEZi3sI/AAAAAAAAx8o/yp1I3xcposIr6lg7S_amDBzP_RFsuIZxA/s0-d/IMG_0884.JPG",
+      "geoInfo": null,
+      "geoInfoExif": null,
+      "imageViews": 0,
+      "license": null
+    },
+    {
+      "tags": [],
+      "description": "Another view of the repaired area with filler material in the background.",
+      "title": "IMG_0885.JPG",
+      "people": [],
+      "comments": [],
+      "url": "https://lh3.googleusercontent.com/-9cpPRvy0hqA/VomsCpgAeCI/AAAAAAAAx8o/96ydQ_PuDUAjVTYL72mwznecLptJfDT4Q/s0-d/IMG_0885.JPG",
+      "geoInfo": null,
+      "geoInfoExif": null,
+      "imageViews": 0,
+      "license": null
+    },
+    {
+      "tags": [],
+      "description": "Repaired area",
+      "title": "IMG_0886.JPG",
+      "people": [],
+      "comments": [],
+      "url": "https://lh3.googleusercontent.com/-8tX7nISn4g4/VomsC5KJ05I/AAAAAAAAx8o/vEWPEPRp3yUBg_s0IqnQ7Eo_sT68cyfsA/s0-d/IMG_0886.JPG",
+      "geoInfo": null,
+      "geoInfoExif": null,
+      "imageViews": 0,
+      "license": null
+    }
+  ]
+}

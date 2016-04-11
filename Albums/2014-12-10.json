@@ -1,0 +1,48 @@
+{
+  "albumData": {
+    "title": "2014/12/10",
+    "date": "Dec 10, 2014 9:58:32 AM",
+    "access": "protected",
+    "description": "Album for automatically uploaded content from cameras and mobile devices",
+    "location": "",
+    "geoInfo": null
+  },
+  "media": [
+    {
+      "tags": [],
+      "description": "",
+      "title": "20141210_115807.jpg",
+      "people": [],
+      "comments": [],
+      "url": "https://lh3.googleusercontent.com/-l-AOPSG9o9c/VIilVr800JI/AAAAAAAAlyY/_DdxfUz9fcsKqYTzsa0hL2x4u28Uyh0Zg/s0-d/20141210_115807.jpg",
+      "geoInfo": null,
+      "geoInfoExif": null,
+      "imageViews": 0,
+      "license": null
+    },
+    {
+      "tags": [],
+      "description": "",
+      "title": "20141210_115815.jpg",
+      "people": [],
+      "comments": [],
+      "url": "https://lh3.googleusercontent.com/-9LtEeUqp-vo/VIilWSf8_cI/AAAAAAAAlyk/1IXcOtNJCtA5EB6wYMQZkfQ-GxfT8kOwg/s0-d/20141210_115815.jpg",
+      "geoInfo": null,
+      "geoInfoExif": null,
+      "imageViews": 0,
+      "license": null
+    },
+    {
+      "tags": [],
+      "description": "",
+      "title": "20141210_115831.jpg",
+      "people": [],
+      "comments": [],
+      "url": "https://lh3.googleusercontent.com/-0xQxZh0KOxk/VIilXXWc2ZI/AAAAAAAAlyw/xhrZKDyl-ZUXWQIS4MFVXUQekb8387BaQ/s0-d/20141210_115831.jpg",
+      "geoInfo": null,
+      "geoInfoExif": null,
+      "imageViews": 0,
+      "license": null
+    }
+  ]
+}

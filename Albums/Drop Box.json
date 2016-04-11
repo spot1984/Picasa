@@ -1,0 +1,96 @@
+{
+  "albumData": {
+    "title": "Drop Box",
+    "date": "Oct 7, 2015 5:58:00 PM",
+    "access": "private",
+    "description": "Default album for newly uploaded photos.",
+    "location": "",
+    "geoInfo": null
+  },
+  "media": [
+    {
+      "tags": [],
+      "description": "",
+      "title": "20151007_190530.jpg",
+      "people": [],
+      "comments": [],
+      "url": "https://lh3.googleusercontent.com/-qPcozYX4drw/VhW_maGDoXI/AAAAAAAAuAY/llV7MmmOiOcRrvsEazha6YZZhta0nDqPA/s0-d/20151007_190530.jpg",
+      "geoInfo": null,
+      "geoInfoExif": null,
+      "imageViews": 0,
+      "license": null
+    },
+    {
+      "tags": [],
+      "description": "",
+      "title": "20151007_190549.jpg",
+      "people": [],
+      "comments": [],
+      "url": "https://lh3.googleusercontent.com/-3XMcYljc0vQ/VhW_o8EZpzI/AAAAAAAAuAg/FAZWGAe6mhQAca_BLY5XAJjqY9DZuQOuA/s0-d/20151007_190549.jpg",
+      "geoInfo": null,
+      "geoInfoExif": null,
+      "imageViews": 0,
+      "license": null
+    },
+    {
+      "tags": [],
+      "description": "",
+      "title": "20151007_190555.jpg",
+      "people": [],
+      "comments": [],
+      "url": "https://lh3.googleusercontent.com/-pHg98AQif1Y/VhW_rLc6TsI/AAAAAAAAuAo/Ngoho8vcgiAHgIQ8rwnPF35ji1ei1ngDQ/s0-d/20151007_190555.jpg",
+      "geoInfo": null,
+      "geoInfoExif": null,
+      "imageViews": 0,
+      "license": null
+    },
+    {
+      "tags": [],
+      "description": "",
+      "title": "20151007_190602.jpg",
+      "people": [],
+      "comments": [],
+      "url": "https://lh3.googleusercontent.com/-WgfuKk-vIvg/VhW_uA1Jb1I/AAAAAAAAuAw/CfvGXOdwIK4xFVybkPuK73wEpe5NZW90Q/s0-d/20151007_190602.jpg",
+      "geoInfo": null,
+      "geoInfoExif": null,
+      "imageViews": 0,
+      "license": null
+    },
+    {
+      "tags": [],
+      "description": "",
+      "title": "20151007_190632.jpg",
+      "people": [],
+      "comments": [],
+      "url": "https://lh3.googleusercontent.com/-o_38xbp0u5g/VhW_wFCKW1I/AAAAAAAAuA4/V-IxJqJB5VkI9qaCcAW1Ltl-wq-Vgjayg/s0-d/20151007_190632.jpg",
+      "geoInfo": null,
+      "geoInfoExif": null,
+      "imageViews": 0,
+      "license": null
+    },
+    {
+      "tags": [],
+      "description": "",
+      "title": "20151007_190929.jpg",
+      "people": [],
+      "comments": [],
+      "url": "https://lh3.googleusercontent.com/-OBl2Wy4TuNE/VhW_yO_7u3I/AAAAAAAAuBA/4NEL5EHhn4k5CPuIouAl5lTIKIkCw1t5Q/s0-d/20151007_190929.jpg",
+      "geoInfo": null,
+      "geoInfoExif": null,
+      "imageViews": 0,
+      "license": null
+    },
+    {
+      "tags": [],
+      "description": "",
+      "title": "20151017_163819.jpg",
+      "people": [],
+      "comments": [],
+      "url": "https://lh3.googleusercontent.com/-O8su37PC0Do/ViLh1Oj_YrI/AAAAAAAAuB0/AeWuh5NabksTLgd-GaC9E96g7Wc60u1yg/s0-d/20151017_163819.jpg",
+      "geoInfo": null,
+      "geoInfoExif": null,
+      "imageViews": 0,
+      "license": null
+    }
+  ]
+}

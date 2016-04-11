@@ -1,0 +1,70 @@
+{
+  "albumData": {
+    "title": "140918 Stacking blocks not over base",
+    "date": "Sep 18, 2014 12:00:00 AM",
+    "access": "public",
+    "description": "I didn\u0027t think you could do it, turns out you can.",
+    "location": "",
+    "geoInfo": null
+  },
+  "media": [
+    {
+      "tags": [],
+      "description": "I didn\u0027t think you could stack identical blocks out over the extents of the base without having more blocks on top to secure them.  It turns out you can. Hmm.\n(The bottom two don\u0027t need to be upside down either)",
+      "title": "20140918_074708.jpg",
+      "people": [],
+      "comments": [
+        {
+          "author": "Joseph Grochowski",
+          "comment": "..this is what your science experiments have devolved into?",
+          "commentTime": "Oct 7, 2014 2:52:28 PM"
+        },
+        {
+          "author": "Scott Williamson",
+          "comment": "Wait til you see my next post.",
+          "commentTime": "Oct 7, 2014 2:54:56 PM"
+        },
+        {
+          "author": "John R. Sippy",
+          "comment": "Well, your first 3 stacked blocks are supported on ~90% of their length, and your 4th looks to be supported on ~75%. I would think you could stack using the 90% method for quite a free more iterations before encountering instabilities.",
+          "commentTime": "Oct 7, 2014 3:06:30 PM"
+        },
+        {
+          "author": "John R. Sippy",
+          "comment": "\u0026quot;free\u0026quot; should have been \u0026quot;few\u0026quot;. Thanks autocorrect.",
+          "commentTime": "Oct 7, 2014 3:07:30 PM"
+        },
+        {
+          "author": "Scott Williamson",
+          "comment": "Actually, mathematically there is no limit to how far you can stack blocks out over the base.  Practical limitations are discovered soon.\u003cbr /\u003e\u003cbr /\u003e(\u003ca href\u003d\"http://ocw.mit.edu/courses/mathematics/18-01sc-single-variable-calculus-fall-2010/unit-5-exploring-the-infinite/part-b-taylor-series/session-96-stacking-blocks/MIT18_01SCF10_Ses96b.pdf\"\u003ehttp://ocw.mit.edu/courses/mathematics/18-01sc-single-variable-calculus-fall-2010/unit-5-exploring-the-infinite/part-b-taylor-series/session-96-stacking-blocks/MIT18_01SCF10_Ses96b.pdf\u003c/a\u003e)",
+          "commentTime": "Oct 7, 2014 3:35:52 PM"
+        },
+        {
+          "author": "Joseph Moses",
+          "comment": "you must have a lot of free time on your hands.",
+          "commentTime": "Oct 8, 2014 4:03:47 AM"
+        },
+        {
+          "author": "Tim Coman",
+          "comment": "Now you just have to build a house sized version ;)\u003cbr /\u003e\u003cbr /\u003ehttp://www.ilikearchitecture.net/2014/10/house-in-yatsugatake-kidosaki-architects-studio/\u003cbr /\u003e\u003cbr /\u003eTim",
+          "commentTime": "Oct 8, 2014 6:36:15 AM"
+        },
+        {
+          "author": "Ben Bachelor",
+          "comment": "Now if you just made another copy, reversed and abutting, you could make some sort of \u0026quot;arched\u0026quot; opening.  It wouldn\u0026#39;t be very stable though unless you added some sort of object in the middle, at the top, to hold everything together.  I imagine such a piece would be rather \u0026quot;key\u0026quot;.  :P",
+          "commentTime": "Oct 8, 2014 7:35:55 AM"
+        },
+        {
+          "author": "Joseph Moses",
+          "comment": "The Romans used this technique more then 2500 years ago to build bridges out of brick without using frames or mortar. Many still stand today.",
+          "commentTime": "Oct 10, 2014 1:24:14 AM"
+        }
+      ],
+      "url": "https://lh3.googleusercontent.com/-4XQXLuT5r38/VDH-fFsWIeI/AAAAAAAAiQE/kOOPtjFjuvcKlLYN98y4YKJ6xmp0xsJ8w/s0-d/20140918_074708.jpg",
+      "geoInfo": null,
+      "geoInfoExif": null,
+      "imageViews": 345,
+      "license": null
+    }
+  ]
+}

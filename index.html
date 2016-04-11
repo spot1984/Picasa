@@ -1,69 +1,76 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
-  <!--<meta name="keywords" content="" />
-  <meta name="description" content="" />-->
-  <meta name="index" content="index, follow" />
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <title>
-    D. Scott Williamson : Compulsively Creative
-  </title>
-	<script type="text/javascript">
-	var titleText = document.title;
-	function titleMarquee() {
-	 titleText = titleText.substring(1, titleText.length) + titleText.substring(0, 1);
-	 document.title = titleText;
-	 setTimeout("titleMarquee()", 450);
-	 }
-	</script>
-	
-	<script typoe="text/javascript">
-	function Get(yourUrl){
-		var Httpreq = new XMLHttpRequest(); // a new request
-		Httpreq.open("GET",yourUrl,false);
-		Httpreq.send(null);
-		return Httpreq.responseText;          
-    }
+<meta name="index" content="index, follow" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>D. Scott Williamson : Compulsively Creative</title>
 
-	function test() {
-		var json_obj = JSON.parse(Get("metadata.json"));
-		
-		albumTitle= json_obj.albumData.title;
-		images=json_obj.media.length;
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
 
-		albumHTML=albumTitle+"<br>";
-		albumHTML+="("+images+" images)<br>";
-		albumHTML+="<br>";
-		
-		
-		for (i=0;i<images; ++i)
-		{
-			title= json_obj.media[i].title;
-			urlDownload= json_obj.media[i].url;
-			description=json_obj.media[i].description;
-			
-			urlThumb=urlDownload;
-			urlThumb = urlThumb.replace('s0-d','s200-c');
-			urlFullsize=urlDownload;
-			urlFullsize.replace("/s0-d/","/s0-Ic42/");
-			
-			//console.log("this is the title name: "+title);
-			imageBlock="";
-			//imageBlock +=  title+'<br>';
-			imageBlock += '<img src="'+urlThumb+'"\><br>'
-			imageBlock += description+'<br>';
-			imageBlock += '<br>';
-			albumHTML += imageBlock;
-		}		
 
-		document.getElementById("demo").innerHTML=albumHTML;
-		
-	}
-	</script>
-	
+<script type="text/javascript">
+var titleText = document.title;
+function titleMarquee() {
+titleText = titleText.substring(1, titleText.length) + titleText.substring(0, 1);
+document.title = titleText;
+setTimeout("titleMarquee()", 450);
+}
+</script>
+<script type="text/javascript">
+function Get(yourUrl){
+var Httpreq = new XMLHttpRequest(); // a new request
+Httpreq.open("GET",yourUrl,false);
+Httpreq.send(null);
+return Httpreq.responseText; }
+function test() {
+	var json_obj = JSON.parse(Get("albums/20150218 Hypercube of monkeys.json"));
+	albumTitle= json_obj.albumData.title;
+	images=json_obj.media.length;
+	albumHTML="<div class=\"title\">"+albumTitle+"</div>";
+	albumHTML+="<div class=\"count\">("+images+" images)</div><br>";
+	albumHTML+="<br>";
+	for (i=0;i<images; ++i)
+	{
+		title= json_obj.media[i].title;
+		urlDownload= json_obj.media[i].url;
+		description=json_obj.media[i].description;
+		urlThumb=urlDownload;
+		urlThumb = urlThumb.replace('s0-d','s200-c');
+		urlFullsize=urlDownload;
+		urlFullsize.replace("/s0-d/","/s0-Ic42/");
+		//console.log("this is the title name: "+title);
+		imageBlock="";
+		//imageBlock += title+'<br>';
+		imageBlock += '<img src="'+urlThumb+'"\><br>'
+		imageBlock += "<div class=\"desc\">"+description+'</div><br>';
+		imageBlock += '<br>';
+		albumHTML += imageBlock;
+	} 
+	document.getElementById("demo").innerHTML=albumHTML;
+}
+</script><!--<meta name="keywords" content="" /> <meta name="description" content="" />-->
 </head>
+
 <body onload="test()">
-<p id="demo">Loading...</p>
-</body>
-</html>
+
+<div class="scottHeadStyle">
+	<div>
+	  <p class="alignleft">D. Scott Williamson</p>
+	  <p class="alignright">Compulsively Creative</p>
+	</div>
+	<div style="clear: both;"></div>
+	
+</div>
+<div class="onePixel">
+<br>	
+</div>
+<div class="scottHeadStyle">
+	&nbsp;&nbsp;
+	&nbsp;Picasa Albums&nbsp;| 
+	&nbsp;SOLID Corp.&nbsp;| 
+	&nbsp;Morezaic
+</div>
+
+<p id="demo"></p>
+</body></html>

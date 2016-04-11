@@ -1,0 +1,71 @@
+
+header, .scottHeadStyle
+{
+	width:100%;
+	margin: 0px;
+	padding: 0px;
+	background: #000000;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11pt;
+	font-weight: 300;
+	color: #cccccc;
+	overflow-x: hidden;
+}
+.alignleft {
+	margin: 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24pt;
+	font-weight: 300;
+	color: #EEEEEE;
+	float: left;
+}
+.alignright {
+	margin: 0px;
+	padding: 26px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14pt;
+	font-weight: 100;
+	color: #aaaaaa;
+	float: right;
+}
+
+.onePixel {
+  height: 0px;
+  margin: 0px;
+  border-bottom: 1px solid #FFffff;
+  font-size: 1px;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+
+.title {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24pt;
+	font-weight: 300;
+	color: #111111;
+
+}
+
+.count{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
+	font-weight: 100;
+	color: #222222;
+	
+}
+
+.desc{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
+	font-weight: 300;
+	color: #111111;
+}

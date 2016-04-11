@@ -1,0 +1,72 @@
+{
+  "albumData": {
+    "title": "150823 3D printed drawer dividers",
+    "date": "Sep 20, 2015 12:00:00 AM",
+    "access": "public",
+    "description": "",
+    "location": "",
+    "geoInfo": null
+  },
+  "media": [
+    {
+      "tags": [],
+      "description": "I wanted some custom drawer dividers so I made some in Open SCAD and 3D printed them.\nThey are customizable, and are currently customized to the dimensions of my drawers.",
+      "title": "20150823 OpenSCAD.png",
+      "people": [],
+      "comments": [],
+      "url": "https://lh3.googleusercontent.com/-16eNdcVECjM/Vf8WIRtPs1I/AAAAAAAAtws/PJ-a2OGJr0MOcdKPQCbY5DCiQcjsUMILA/s0-d/20150823%2BOpenSCAD.png",
+      "geoInfo": null,
+      "geoInfoExif": null,
+      "imageViews": 110,
+      "license": null
+    },
+    {
+      "tags": [],
+      "description": "This shallow test for fit printed in 16 minutes.",
+      "title": "20150823_182552.jpg",
+      "people": [],
+      "comments": [],
+      "url": "https://lh3.googleusercontent.com/-teRMZPTuat8/Vf7MOPThJEI/AAAAAAAAtxY/wLwJHt3Fuc099guotvDIBk6rT3fjUygQQ/s0-d/20150823_182552.jpg",
+      "geoInfo": null,
+      "geoInfoExif": null,
+      "imageViews": 0,
+      "license": null
+    },
+    {
+      "tags": [],
+      "description": "Removed from raft and fits perfect, as expected.\nIf I want to get really fancy I could add a small roundover to the bottom outer corners, but right now I just want the dividers.",
+      "title": "20150823_182831.jpg",
+      "people": [],
+      "comments": [],
+      "url": "https://lh3.googleusercontent.com/-AvNbxkcQmz4/Vf7MN5Qot6I/AAAAAAAAs88/cpX-f0tmDB4tkCTZDsz29YaUiL6Wg38og/s0-d/20150823_182831.jpg",
+      "geoInfo": null,
+      "geoInfoExif": null,
+      "imageViews": 0,
+      "license": null
+    },
+    {
+      "tags": [],
+      "description": "This is the taller variation of the divider I needed to fit 6 types of screw, all with the same thread pitch into a single drawer.",
+      "title": "20150823_190705.jpg",
+      "people": [],
+      "comments": [],
+      "url": "https://lh3.googleusercontent.com/-k5yYgtYt11I/Vf7MOE8WlcI/AAAAAAAAs9A/fjqqw6-J7rM4qhLxbUY6WxIxl5Ycf7UzA/s0-d/20150823_190705.jpg",
+      "geoInfo": null,
+      "geoInfoExif": null,
+      "imageViews": 0,
+      "license": null
+    },
+    {
+      "tags": [],
+      "description": "Yay!\nMy screws are organized.\n\n(and I also proved I can print with Fry\u0027s PLA with no problem)",
+      "title": "20150823_191840.jpg",
+      "people": [],
+      "comments": [],
+      "url": "https://lh3.googleusercontent.com/-wzB39auEvls/Vf7MOmbztNI/AAAAAAAAs9E/UgM5DnWgKnkYkgIyxWqdP-mnKe8K8EmHw/s0-d/20150823_191840.jpg",
+      "geoInfo": null,
+      "geoInfoExif": null,
+      "imageViews": 0,
+      "license": null
+    }
+  ]
+}

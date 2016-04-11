@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head>
+<meta name="index" content="index, follow" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" /><title>D. Scott Williamson : Compulsively Creative</title>
+
+<script type="text/javascript">
+var titleText = document.title;
+function titleMarquee() {
+titleText = titleText.substring(1, titleText.length) + titleText.substring(0, 1);
+document.title = titleText;
+setTimeout("titleMarquee()", 450);
+}
+</script>
+<script typoe="text/javascript">
+function Get(yourUrl){
+var Httpreq = new XMLHttpRequest(); // a new request
+Httpreq.open("GET",yourUrl,false);
+Httpreq.send(null);
+return Httpreq.responseText; }
+function test() {
+var json_obj = JSON.parse(Get("metadata.json"));
+albumTitle= json_obj.albumData.title;
+images=json_obj.media.length;
+albumHTML=albumTitle+"<br>";
+albumHTML+="("+images+" images)<br>";
+albumHTML+="<br>";
+for (i=0;i<images; ++i)
+{
+title= json_obj.media[i].title;
+urlDownload= json_obj.media[i].url;
+description=json_obj.media[i].description;
+urlThumb=urlDownload;
+urlThumb = urlThumb.replace('s0-d','s200-c');
+urlFullsize=urlDownload;
+urlFullsize.replace("/s0-d/","/s0-Ic42/");
+//console.log("this is the title name: "+title);
+imageBlock="";
+//imageBlock += title+'<br>';
+imageBlock += '<img src="'+urlThumb+'"\><br>'
+imageBlock += description+'<br>';
+imageBlock += '<br>';
+albumHTML += imageBlock;
+} document.getElementById("demo").innerHTML=albumHTML;
+}
+</script><!--<meta name="keywords" content="" /> <meta name="description" content="" />-->
+</head>
+
+
+<body>
+
+<span style="background-color: #000000;">
+test
+<h1>D. Scott Williamson<h1>
+<h2>Compulsively Creative</h2>
+</span>
+
+120825 Joeys Ammo Box PC construction
+120825 Joeys Ammo Box PC construction.json
+130616 3D printed golf ball ice mold and experimen
+130616 3D printed golf ball ice mold and experimen.json
+130616 Laser line generators for CNC
+130616 Laser line generators for CNC.json
+130724 3D printed Planetside2 models
+130724 3D printed Planetside2 models.json
+130730 3D printed Warhammer 40K tank
+130730 3D printed Warhammer 40K tank.json
+130807 3D printed ping pong net post
+130807 3D printed ping pong net post.json
+130817 Printed new spring loaded and bearing feede
+130817 Printed new spring loaded and bearing feede.json
+140507 Etching glass
+140507 Etching glass.json
+140918 Stacking blocks not over base
+140918 Stacking blocks not over base.json
+150718 Electroplating 3D printed PLA
+150718 Electroplating 3D printed PLA.json
+150809 IR passive filters and photos
+150809 IR passive filters and photos.json
+150814 Extreme bike repair
+150814 Extreme bike repair.json
+150823 3D printed drawer dividers
+150823 3D printed drawer dividers.json
+150828 Changing Dagmars bedding and discovering sh
+150828 Changing Dagmars bedding and discovering sh.json
+150905 Fabricating window pane mutton hangers from
+150905 Fabricating window pane mutton hangers from.json
+150908 Clear ice and ice ball experiments_ moving
+150908 Clear ice and ice ball experiments_ moving.json
+150920 Repairing and reupholstering chairs for Gra
+150920 Repairing and reupholstering chairs for Gra.json
+151003 Solar CNC
+151003 Solar CNC.json
+151018 Fixing lamp liner with glove balloon
+151018 Fixing lamp liner with glove balloon.json
+151024 Heat shrink shoelace aglets
+151024 Heat shrink shoelace aglets.json
+151101 Fix reading glasses
+151101 Fix reading glasses.json
+151205 Vacuum popping popcorn
+151205 Vacuum popping popcorn.json
+151212 Jack Kirby etched beer mug
+151212 Jack Kirby etched beer mug.json
+151220 3D printed .25-20 XY table for Dads capacit
+151220 3D printed .25-20 XY table for Dads capacit.json
+151230 3D printed drive train and sprockets
+151230 3D printed drive train and sprockets.json
+160103 Welding PLA
+160103 Welding PLA.json
+160115 Heated bed for Replicator 2
+160115 Heated bed for Replicator 2.json
+160116 Heatless toner transfer
+160116 Heatless toner transfer.json
+160123 Plaster light bulb
+160123 Plaster light bulb.json
+160124 1013 Loborough
+160124 1013 Loborough.json
+160124 3D printed auto interior tools
+160124 3D printed auto interior tools.json
+160124 iPod 4 and iPhone 4 cases
+160124 iPod 4 and iPhone 4 cases.json
+160207 Micrometeorites
+160207 Micrometeorites.json
+160208 Laser engraved poem for Grace
+160208 Laser engraved poem for Grace.json
+160208 Laser monogrammed bacon
+160208 Laser monogrammed bacon.json
+2009-10-02
+2009-10-02.json
+2014-08-27 #2
+2014-08-27 #2.json
+2014-12-10
+2014-12-10.json
+20140921 Palomar (downtown Chicago)
+20140921 Palomar (downtown Chicago).json
+20150218 Hypercube of monkeys
+20150218 Hypercube of monkeys.json
+20150626 Hard disk laser light show
+20150626 Hard disk laser light show.json
+20150701 Levitating screwdriver
+20150701 Levitating screwdriver.json
+2015118-20151114 Schloss Dagstuhl
+2015118-20151114 Schloss Dagstuhl.json
+4-23-12
+4-23-12.json
+December 14, 2015
+December 14, 2015.json
+December 15, 2015
+December 15, 2015.json
+Drop Box
+Drop Box.json
+February 8, 2012
+February 8, 2012.json
+folders.bat
+folders.txt
+m.bat
+Not a face
+Not a face.json
+November 21, 2015
+November 21, 2015.json
+</body></html>
