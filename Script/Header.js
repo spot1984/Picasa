@@ -34,40 +34,29 @@ function insertHeader()
 </div> \
 <div class="onePixel"><br></div>\
 <div class="scottHeadStyle">\
-	&nbsp;&nbsp; &nbsp;Picasa Albums&nbsp;| &nbsp;SOLID Corp.&nbsp;| &nbsp;Morezaic\
+	&nbsp;&nbsp;&nbsp;Albums&nbsp;|&nbsp;SOLID Corp.&nbsp;|&nbsp;Morezaic&nbsp;|&nbsp;About\
 </div>'
 
+}
+
+function onLoadMain() {
+	insertHeader();
 }
 
 function onLoadAlbums() {
 	insertHeader();
 	
-	var json_obj = JSON.parse(Get(albums.json));
-	albumTitle= json_obj.albumData.title;
-	images=json_obj.media.length;
-	albumHTML="<div class=\"title\">"+albumTitle+"</div>";
-	albumHTML+="<div class=\"count\">("+images+" images)</div><br>";
-	albumHTML+="<br>";
-	for (i=0;i<images; ++i)
+	var json_obj = JSON.parse(Get("albums.json"));
+	albums=json_obj.album.length;
+
+	contentHTML="<div class=\"title\">Albums</div>";
+	for (i=0;i<albums; ++i)
 	{
-		title= json_obj.media[i].title;
-		urlDownload= json_obj.media[i].url;
-		description=json_obj.media[i].description;
-		urlThumb=urlDownload;
-		urlThumb = urlDownload.replace('s0-d','s200-c');
-		urlFullsize=urlDownload;
-		urlFullsize=urlDownload.replace('s0-d','s0-c');
-		//console.log("this is the title name: "+title);
-		imageBlock="";
-		//imageBlock += title+'<br>';
-		imageBlock += '<a href="'+urlFullsize+'">'
-		imageBlock += '<img src="'+urlThumb+'"\>'
-		imageBlock += '</a><br>'
-		imageBlock += "<div class=\"desc\">"+description+'</div><br>';
-		imageBlock += '<br>';
-		albumHTML += imageBlock;
+		json= json_obj.album[i];
+		imageBlock='<a href="album.html?a='+json+'">'+json+'</a><br>'
+		contentHTML += imageBlock;
 	} 
-	document.getElementById("content").innerHTML=albumHTML;
+	document.getElementById("content").innerHTML=contentHTML;
 }
 
 function onLoadAlbum() {
@@ -75,7 +64,7 @@ function onLoadAlbum() {
 	args=getArgs();
 	json=args["a"];
 	
-	albumJson="albums/"+json+".json";
+	albumJson=json+".json";
 	var json_obj = JSON.parse(Get(albumJson));
 	albumTitle= json_obj.albumData.title;
 	images=json_obj.media.length;
