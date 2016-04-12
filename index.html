@@ -8,23 +8,18 @@
 <link href="default.css" rel="stylesheet" type="text/css" media="all" />
 <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
 
+<script type="text/javascript" src="script/header.js"></script>
 
 <script type="text/javascript">
-var titleText = document.title;
-function titleMarquee() {
-titleText = titleText.substring(1, titleText.length) + titleText.substring(0, 1);
-document.title = titleText;
-setTimeout("titleMarquee()", 450);
-}
-</script>
-<script type="text/javascript">
-function Get(yourUrl){
-var Httpreq = new XMLHttpRequest(); // a new request
-Httpreq.open("GET",yourUrl,false);
-Httpreq.send(null);
-return Httpreq.responseText; }
-function test() {
-	var json_obj = JSON.parse(Get("Albums/20150218 Hypercube of monkeys.json"));
+
+function onLoad() {
+	insertHeader();
+
+	args=getArgs();
+	json=args["a"];
+	
+	albumJson="albums/"+json+".json";
+	var json_obj = JSON.parse(Get(albumJson));
 	albumTitle= json_obj.albumData.title;
 	images=json_obj.media.length;
 	albumHTML="<div class=\"title\">"+albumTitle+"</div>";
@@ -36,42 +31,28 @@ function test() {
 		urlDownload= json_obj.media[i].url;
 		description=json_obj.media[i].description;
 		urlThumb=urlDownload;
-		urlThumb = urlThumb.replace('s0-d','s200-c');
+		urlThumb = urlDownload.replace('s0-d','s200-c');
 		urlFullsize=urlDownload;
-		urlFullsize.replace("/s0-d/","/s0-Ic42/");
+		urlFullsize=urlDownload.replace('s0-d','s0-c');
 		//console.log("this is the title name: "+title);
 		imageBlock="";
 		//imageBlock += title+'<br>';
-		imageBlock += '<img src="'+urlThumb+'"\><br>'
+		imageBlock += '<a href="'+urlFullsize+'">'
+		imageBlock += '<img src="'+urlThumb+'"\>'
+		imageBlock += '</a><br>'
 		imageBlock += "<div class=\"desc\">"+description+'</div><br>';
 		imageBlock += '<br>';
 		albumHTML += imageBlock;
 	} 
-	document.getElementById("demo").innerHTML=albumHTML;
+	document.getElementById("album").innerHTML=albumHTML;
 }
 </script><!--<meta name="keywords" content="" /> <meta name="description" content="" />-->
 </head>
 
-<body onload="test()">
+<body onload="onLoad()">
 
-<div class="scottHeadStyle">
-	<div>
-	  <p class="alignleft">D. Scott Williamson</p>
-	  <p class="alignright">Compulsively Creative</p>
-	</div>
-	<div style="clear: both;"></div>
-	
-</div>
-<div class="onePixel">
-<br>	
-</div>
-<div class="scottHeadStyle">
-	&nbsp;&nbsp;
-	&nbsp;Picasa Albums&nbsp;| 
-	&nbsp;SOLID Corp.&nbsp;| 
-	&nbsp;Morezaic
-</div>
+<p id="header"></p>
 
-<p id="demo"></p>
+<p id="album"></p>
 
 </body></html>
