@@ -1,15 +1,48 @@
 
 Create landing page index.html
-Create header script (header goes on every page)
-	D. Scott Williamson to the left, Compulsively Creative to the right but not over my name
-	Figure out how to make header not scroll
+Header
 	Drop down menus from mouse over
 
 Create css
 	select colors, fonts, classes
 
+	
 Albums:
-	Create albums page
+	Albums page
+		Header
+		thumbnail size slider
+		Tiles 
+			top x with load all selection
+			Json file of albums	
+				json name
+				thumb uri
+				album description
+	
+	Album page
+		Header
+		Name of album
+		Date
+		Number of pictures
+		thumbnail size slider
+		Tiles with captions
+			json
+				album name
+				album date
+					images
+	
+	Image page (different album view)
+		Header
+		Name of album
+		Date
+		# of # 
+		big picture with caption
+		click on picture gets full size
+		Icons for left and right with mouse over
+		keyboard input left, right, home, end, pageup pagedown
+
+		zooming transitions
+		little pictures across bottom
+	
 	Create album pages automatically from json files - python? can be extended later
 	NOT  rename and copy metadata.json to albumname.json in albums
 	Create album script function
