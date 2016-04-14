@@ -1,4 +1,17 @@
 
+
+Goal:
+	Recreate Picasa web albums
+	album and picture zoomy
+	big picture and each neighbor loaded big
+	big pictures replace small ones
+	thumbnail slider
+	sort icons
+	
+
+
+
+
 Create landing page index.html
 Header
 	Drop down menus from mouse over
@@ -43,6 +56,10 @@ Albums:
 		zooming transitions
 		little pictures across bottom
 	
+	load all the thumbnails into an array and position them dynamimcally
+	Switch between album and image smoothly zoomy
+	
+	
 	Create album pages automatically from json files - python? can be extended later
 	NOT  rename and copy metadata.json to albumname.json in albums
 	Create album script function
@@ -53,4 +70,27 @@ Albums:
 	
 create 2016 folder
 	Start creating html files for projects, photos still uploaded to picasa
+	
+
+	
+
+https://lh3.googleusercontent.com/-7TNaXnlhMRg/TspivMqkEDE/AAAAAAAABW4/oWzru7fPZ2o/s144-c-Ic42/111119FloppyDiskRecovery
+https://lh3.googleusercontent.com/-2FoLRlH5j8E/Tspi2S-tDeI/AAAAAAAABUE/J6WuA2EIr2wb7-spJxjGQIWT5M4L8FFaQCCo/s800-Ic42/IMG_4001.jpg
+
+https://lh3.googleusercontent.com/-SJP1ZLMpQag/UDt3KBL_amI/AAAAAAAAyOo/A9hTqsRHIh4K1t7uJTW1dFi7EAIFyBVvQ/s0-d/IMG_5648.jpg
+
+
+https://lh3.googleusercontent.com/-tTdl9u8VryE/Vf7MFxgdboI/AAAAAAAAs8U/-jXYjlsiAXsh7CQztjdyl4HAsWwbhhsmg/s144-c-Ic42/20150815_154537.jpg
+
+https://lh3.googleusercontent.com/-7TNaXnlhMRg/TspivMqkEDE/AAAAAAAABW4/oWzru7fPZ2o/s144-c-Ic42/111119FloppyDiskRecovery
+
+
+https://lh3.googleusercontent.com/-tTdl9u8VryE/Vf7MFxgdboI/AAAAAAAAs8U/-jXYjlsiAXsh7CQztjdyl4HAsWwbhhsmg/s0-d/20150815_154537.jpg
+https://lh3.googleusercontent.com/-tTdl9u8VryE/Vf7MFxgdboI/AAAAAAAAs8U/-jXYjlsiAXsh7CQztjdyl4HAsWwbhhsmg/s0-d/20150815_154537.jpg
+https://lh3.googleusercontent.com/-tTdl9u8VryE/Vf7MFxgdboI/AAAAAAAAs8U/-jXYjlsiAXsh7CQztjdyl4HAsWwbhhsmg/s0-d/20150815_154537.jpg
+	
+	
+	https://lh3.googleusercontent.com/-PgUdip8Fggk/VwHXMv6_CFI/AAAAAAAAzpA/Znd5kYtEM0MmJk3pEDsEkbLYOAzB4HXNgCCo/s288-Ic42/IMG_1983.MOV
+	
+	
 	

@@ -34,7 +34,7 @@ function insertHeader()
 </div> \
 <div class="onePixel"><br></div>\
 <div class="scottHeadStyle">\
-	&nbsp;&nbsp;&nbsp;Albums&nbsp;|&nbsp;SOLID Corp.&nbsp;|&nbsp;Morezaic&nbsp;|&nbsp;About\
+	&nbsp;&nbsp;&nbsp;<a href="albums/albums.html">Albums</a>&nbsp;|&nbsp;SOLID Corp.&nbsp;|&nbsp;Morezaic&nbsp;|&nbsp;About\
 </div>'
 
 }

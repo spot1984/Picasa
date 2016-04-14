@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+#thumbSizeBar{
+	width:200px;
+	height:8px;
+	border:1px solid black;
+	position:relative;
+	display:inline-block;
+}
+#thumbSizeSlider{
+	width:0%;
+	height:100%;
+	background-color:indigo;
+	top:0px;
+	left:0px;
+	position:absolute;
+	cursor:pointer;
+	display:inline-block;
+}
+
+</style>
+
+<script type="text/javascript">
+var thumbBar, thumbSlider;
+function thumbSizeInit(){
+	thumbBar = document.getElementById('thumbSizeBar');
+	thumbSlider = document.getElementById('thumbSizeSlider');
+	var set_perc=0.5;
+	thumbSlider.style.width = (set_perc * 100) + '%';	
+	thumbBar.addEventListener('mousedown', startThumbSizeSlide, false);	
+	thumbBar.addEventListener('mouseup', stopThumbSizeSlide, false);
+}
+function startThumbSizeSlide(event){
+	var set_perc = ((((event.clientX - thumbBar.offsetLeft) / thumbBar.offsetWidth)).toFixed(2));
+	thumbBar.addEventListener('mousemove', moveThumbSizeSlide, false);	
+	thumbSlider.style.width = (set_perc * 100) + '%';	
+}
+function moveThumbSizeSlide(event){
+	var set_perc = ((((event.clientX - thumbBar.offsetLeft) / thumbBar.offsetWidth)).toFixed(2));
+	thumbSlider.style.width = (set_perc * 100) + '%';
+}
+function stopThumbSizeSlide(event){
+	var set_perc = ((((event.clientX - thumbBar.offsetLeft) / thumbBar.offsetWidth)).toFixed(2));
+	thumbBar.removeEventListener('mousemove', moveThumbSizeSlide, false);
+	thumbSlider.style.width = (set_perc * 100) + '%';
+}
+</script>
+
+</head>
+<body onload='thumbSizeInit()'>
+
+<div style="position:relative; top:-.65px; display:inline-block; font-size: 9pt;">&#9712;&nbsp;</div>
+<div id='thumbSizeBar'>
+<div id='thumbSizeSlider'>
+</div>
+</div>
+<div style="position:absolute; top:-1.5px; display:inline-block; font-size: 20pt;">&nbsp;&#9712;</div>
+<br />
+
+</body>
+</html>
